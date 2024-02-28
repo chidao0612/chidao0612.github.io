@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="en>   
-<body>
-    <a href="http://vnu.edu.vn">VietNam National University</a>
-</body>
-    </html>
-
+<html lang="en">
+    <title>Week 4 Ex1</title>
+    <a href="https://www.is.vnu.edu.vn/">International School</a>
+    <BODY background="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.is.vnu.edu.vn%2F&psig=AOvVaw15xLAJT_yEfGAn7t2j8dVr&ust=1709022130742000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCKi1vdPJyIQDFQAAAAAdAAAAABAE">
+    <body>
+    <ol>
+        <a href="#gioithieu"><li>Giới thiệu</li></a>
+        <a href="#daotao"><li>Đào tạo</li></a>
+        </ol>
+        <hr>
+        <h2 id="gioithieu"> Giới thiệu</h2>
+    </body>
+</html>
     
   
