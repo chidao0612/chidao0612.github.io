@@ -1,12 +1,12 @@
-.ProductDetails {display: none;}
+/* .ProductDetails {display: none;} */
 .Product img{
     width: 150px; 
     height: 150px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #aaa;
 }
-.ProductName{font-weight: bold;}
-.ProductPrice{font-style: italic;}
+.ProductName{display: inline-block; font-weight: bold;}
+.ProductPrice{display: inline-block; font-style: italic;}
 .ProductPrice:before {content:"-";}
 .Product{
     text-align: center;
@@ -16,25 +16,3 @@
     cursor: pointer;
 }
 .Product:hover.ProductDetails{display:block;}
-.MyCustomizeTag {
-    display: block;
-    text-align: center;
-    text-transform: capitalize;
-    width: 500px;
-}
-ul{
-    background-color: yellow;
-    margin: 0px 0px 5px 5px;
-    width: 300px;
-}
-Groupformat {
-    font-weight: bold;
-    color: #f00;
-    width: 400px;
-}
-#TheHighestPriority{
-    background-color: #000;
-    font-weight: none;
-    font: italic 30px "Times New Roman";
-    color: #fff
-}
