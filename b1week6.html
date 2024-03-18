@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>ex02</title>
+    </head>
+     <body>>
+            <input type="number" id="enter number A">
+            <input type="number" id="enter number B">
+            <button onclick="tinhtong();">
+                tinh tong
+            </button>
+            <script>
+            function tinhtong() {
+            var a = document.getElementById("enter number A").value;
+            var b = document.getElementById("enter number B").value;
+            if(a == null || b == ""||isNaN(a)){
+                alert("Number A is formatted incorrect");
+            } else if(a == null || b == ""||isNaN(b)){
+                alert("Number B is formatted incorrect");
+            } else {
+                var result = parseFloat(a) + parseFloat(b);
+                alert("result:\n" +
+                a + " + " + b + " = " + result);
+            }
+            } 
+            </script>
+    </body>
+</html>
